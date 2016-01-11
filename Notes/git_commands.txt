@@ -1,0 +1,30 @@
+git_commands.txt
+Kristofor Horst
+ZombOps Project
+Jan-11-2016
+
+GitShell Commands:
+	To pull from a branch type:
+		git pull origin [branch]
+	
+	To change branches:
+		git checkout [branch]
+	
+	To create a new branch:
+		git checkout -b [branch]
+		
+	To add changes to a commit:
+		git add .
+	OR
+		git add [file name with complete path]
+	
+	To commit changes:
+		git commit -m "[message goes here]"
+		
+	To push changes to a branch:
+		git push origin [branch]
+		
+	To check status:
+		git status
+		
+

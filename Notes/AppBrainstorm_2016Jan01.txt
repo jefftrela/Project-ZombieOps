@@ -1,0 +1,38 @@
+Discussion Jan/10/2016:
+Jeff Trela; Kristofor Horst
+Subject: Android Application Brainstorm
+
+1. Update of a currently existing webgame, Dealer. (http://www.newgrounds.com/portal/view/4164)
+	a. Update the GUI with clean, modular pieces
+	b. Add unique spin to game 
+		considered a 'stash house' with upgrades
+		cash limit on bank to encourage purchases
+	c. Clean up language to be more fluid
+	
+2. Redo Dealer (see above) as a 'Stock Market' game or 'Lemonade Stand'
+
+3. Sports Management Game
+	a. Buy player contracts
+	b. Percentage based winning attached to players
+		monitize the contract buying portion
+	c. Free user bracket, paid user bracket
+
+4. Tic-Tac-Bruh
+
+5. Zombie tactics game
+	a. medieval? Modern?
+	
+
+----------------
+
+Menu:
+	Vertical layout
+	
+	??
+	Home    - Ingame info, character stats
+	Profile - Update user info (who you are)
+	Carreer - 
+	
+	
+----------------
+Textbased game
