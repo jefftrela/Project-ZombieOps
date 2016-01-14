@@ -1,0 +1,115 @@
+//Kristofor Horst
+//ZombOps Project
+//Jan_01_2016
+//Equipment drafts V0.0.1
+
+/*------------*Equipment Definitions*------------*/
+/*------------*Weapon Definitions*------------*/
+
+{	"Name":"Sword"
+	"Damage" : 1
+	"Block_rate": 1
+	"reach": 1
+	"Speed": 1
+	"Weight" : 1
+}
+
+{	"Name":"Hatchet"
+	"Damage" : 1
+	"Block_rate": 1
+	"reach": 1
+	"Speed": 1
+	"Weight" : 1
+}
+
+{	"Name":"Crossbow"
+	"Damage" : 1
+	"Block_rate": 0
+	"reach": 2
+	"Speed": 1
+	"Weight" : 1
+}
+
+{	"Name":"Long_bow"
+	"Damage" : 1
+	"Block_rate": 0
+	"reach": 2
+	"Speed": 1
+	"Weight" : 1
+}
+
+{	"Name":"Short_bow"
+	"Damage" : 1
+	"Block_rate": 0
+	"reach": 2
+	"Speed": 1
+	"Weight" : 1
+}
+
+{	"Name":"Halbred"
+	"Damage" : 1
+	"Block_rate": 1
+	"reach": 1
+	"Speed": 1
+	"Weight" : 1
+}
+
+{	"Name":"Spear"
+	"Damage" : 1
+	"Block_rate": 1
+	"reach": 1
+	"Speed": 1
+	"Weight" : 1
+}
+
+{	"Name":"Stick"
+	"Damage" : 1
+	"Block_rate": 1
+	"reach": 1
+	"Speed": 1
+	"Weight" : 1
+}
+
+{	"Name":"Sling"
+	"Damage" : 1
+	"Block_rate": 0
+	"reach": 2
+	"Speed": 1
+	"Weight" : 1
+}
+/*------------*Weapon Definitions*------------*/
+/*------------*Armor Definitions*------------*/
+
+
+{
+	"Name": "Plate_armor"
+	"Armor" : 1
+	"Weight" : 1
+	"speed_factor" : .9
+}
+
+{	"Name": "Chain_armor"
+	"Armor" : 1
+	"Weight" : 1
+	"speed_factor" : .9
+}
+
+{	"Name": "Leather_armor"
+	"Armor" : 1
+	"Weight" : 1
+	"speed_factor" : .9
+}
+	
+{	"Name": "Padded_armor"
+	"Armor" : 1
+	"Weight" : 1
+	"speed_factor" : .9
+}
+	
+{	"Name": "Basic_clothing"
+	"Armor" : 1
+	"Weight" : 1
+	"speed_factor" : .9
+}
+ /*------------*Armor Definitions*------------*/
+ /*------------*Equipment Definitions*------------*/

@@ -1,0 +1,35 @@
+//Kristofor Horst
+//ZombOps Project
+//Jan_01_2016
+//Base class drafts V0.0.1
+
+
+{
+ //Humanoid Base
+	"Health"	: 100; //Ability to take damage, full at 100, dead at 0
+	"Stamina"	: 100; //Ability to run, do physical actions, full at 100, empty at 0
+	"Damage"	: 1;   //damage dealt by attack multiplier; dealt damage by: dmg = ((Damage * Strength)/Stamina)
+	"Speed"		: 3;   //speed of actions (1 is slowest, 10 is fastest)
+	"Armor" 	: 1;   //resist damage by: Health -= (dmg /(armor))
+	"Strength"	: 1;   //Damage multiplier
+	"Agility"	: 1;   //Chance to evade is: (Agility * Speed / 100)
+	"Intellect"	: 1;   //Maybe useful later for crafting
+	"WeightMax"	: 100; //Implement item weight as a means to limit inventory?
+	"Dead"		: 0;   //Boolean T/F:1/0 to flag in-combat deaths
+	"Squad"		: "Free Agent"; //Marks the squad of each Humanoid
+	"HirePrice" : 100; //Hire Price base at 100 credits; HirePrice = {Fancy ass calculation here or something}
+	"Name"		: Gene Rick; //Default Name
+	//"Survivability" : {Fancy ass calculation} //Composite of the Health, Armor, Speed, and Agility metrics
+};
+
+{
+	//Squad Base
+	"Lead"	 : "unassigned" //Change the value to be the humanoid that is leader
+	"Members": {"a", "b", "c"}			//Insert array of names here later
+	"Damage" : {Fancy ass calculation} // Damage = a.dmg + b.dmg + c.dmg + ... to give an idea of squad strength
+	"Speed"	 : {Fancy ass calculation} //speed is floor(members.speed) because you can only move as fast as the slowest man
+	"Survivability": {Fancy ass calculation} //Composite of the Health, Armor, Speed, and Agility metrics to give average squad survivability
+
+};
+
+
